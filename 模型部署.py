@@ -115,7 +115,7 @@ if st.button("Predict"):
 
     # 展示蜂群图
     st.write("### 蜂群图")
-    image_url = "https://raw.githubusercontent.com/wuyuze3387/-03.25/main/蜂群图.png"  # 确保这是正确的图片URL
+    image_url = "https://github.com/wuyuze3387/Random-Forest-PBT/blob/main/蜂群图.png"  # 确保这是正确的图片URL
     try:
         response = requests.get(image_url)
         response.raise_for_status()  # 确保请求成功
